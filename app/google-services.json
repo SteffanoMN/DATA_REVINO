@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "755370093972",
+    "firebase_url": "https://data-revino-default-rtdb.firebaseio.com",
+    "project_id": "data-revino",
+    "storage_bucket": "data-revino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755370093972:android:c8397709cf06a02d97f381",
+        "android_client_info": {
+          "package_name": "com.example.data_revino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755370093972-jbpgv3poqualsenbm5cjl4us1j88lg33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3_bHKToQtVCNwutlm9TDBM9xiAX6ESH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755370093972-jbpgv3poqualsenbm5cjl4us1j88lg33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

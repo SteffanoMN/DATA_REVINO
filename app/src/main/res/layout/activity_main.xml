@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglogin"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/add_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="135dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="ADD DATA"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/layout_txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:hint="Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_name"
+                android:layout_width="380dp"
+                android:background="@drawable/edittext"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_gravity="center"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_txt_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:hint="Phone ">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_number"
+                android:background="@drawable/edittext"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:hint="ID">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_id"
+                android:background="@drawable/edittext"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_txt_time"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:hint="Time">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_time"
+                android:background="@drawable/edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_txt_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:hint="Order">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_order"
+                android:background="@drawable/edittext"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_txt_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:hint="Payment">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_payment"
+                android:background="@drawable/edittext"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:text="Add Data"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="45dp"
+            android:backgroundTint="@color/login_form_details_light"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_intent"
+            android:textStyle="bold"
+            android:backgroundTint="@color/login_form_details_light"
+            android:text="Check Data"
+            android:layout_marginHorizontal="45dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglogin"
+    tools:context=".DeleteActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/delete_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="135dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="DELETE DATA"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/layout_txt_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:hint="Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_name_edit"
+                android:layout_width="380dp"
+                android:background="@drawable/edittext"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_gravity="center"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_txt_number_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:hint="Phone ">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_number_edit"
+                android:background="@drawable/edittext"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_txt_id_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:hint="ID">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_id_edit"
+                android:background="@drawable/edittext"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_txt_time_edit"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:hint="Time">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_time_edit"
+                android:background="@drawable/edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_txt_order_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:hint="Order">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_order_edit"
+                android:background="@drawable/edittext"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_txt_payment_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:hint="Payment">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_payment_edit"
+                android:background="@drawable/edittext"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="45dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Delete Data" />
+
+    </LinearLayout>
+
+</RelativeLayout>
