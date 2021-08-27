@@ -34,8 +34,6 @@ public class RV_Activity extends AppCompatActivity {
     private ArrayList<Client_Data> List;
     private RecyclerView recyclerView;
     private Adapter adapter;
-    EditText search;
-    CharSequence searchresult = "";
     private final int REQUEST_CODE = 101;
 
     @Override
@@ -61,7 +59,7 @@ public class RV_Activity extends AppCompatActivity {
                 if (List != null) {
                     if (List.isEmpty()) tv_item.setVisibility(View.VISIBLE);
                     else tv_item.setVisibility(View.INVISIBLE);
-                }
+                }   else tv_item.setVisibility(View.INVISIBLE);
 
                 adapter = new Adapter(getApplicationContext(), List);
                 RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
@@ -87,7 +85,7 @@ public class RV_Activity extends AppCompatActivity {
                                 id = List.get(position).getId();
                                 time = List.get(position).getTime();
                                 order = List.get(position).getOrder();
-                                payment = List.get(position).getOrder();
+                                payment = List.get(position).getPayment();
 
                                 Intent intent = new Intent(getApplicationContext(), DeleteActivity.class);
                                 intent.putExtra("name", name);
